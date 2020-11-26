@@ -661,6 +661,8 @@ final class StatusTableViewController: LoopChartsTableViewController {
 
         let hudIsVisible = self.shouldShowHUD
         let statusIsVisible = self.shouldShowStatus
+        
+        hudView?.glucoseHUD.isVisible = hudIsVisible
 
         hudView?.cgmStatusHUD?.isVisible = hudIsVisible
 
