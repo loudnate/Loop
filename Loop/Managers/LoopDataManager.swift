@@ -330,6 +330,7 @@ extension LoopDataManager {
             doseStore.basalProfile = newValue
             UserDefaults.appGroup?.basalRateSchedule = newValue
             notify(forChange: .preferences)
+            notifyUpload(forChange: .preferences)
 
             if let newValue = newValue, let oldValue = doseStore.basalProfile, newValue.items != oldValue.items {
                 AnalyticsManager.shared.didChangeBasalRateSchedule()
@@ -357,6 +358,7 @@ extension LoopDataManager {
             carbsOnBoard = nil
 
             notify(forChange: .preferences)
+            notifyUpload(forChange: .preferences)
         }
     }
 
@@ -408,6 +410,7 @@ extension LoopDataManager {
                 self.insulinEffect = nil
 
                 self.notify(forChange: .preferences)
+                self.notifyUpload(forChange: .preferences)
             }
         }
     }
@@ -859,6 +862,15 @@ extension LoopDataManager {
             ]
         )
     }
+    
+    private func notifyUpload(forChange context: LoopUpdateContext) {
+        NotificationCenter.default.post(name: .LoopDataUpload,
+            object: self,
+            userInfo: [
+                type(of: self).LoopUpdateContextKey: context.rawValue
+            ]
+        )
+    }
 
     /// Computes amount of insulin from boluses that have been issued and not confirmed, and
     /// remaining insulin delivery from temporary basal rate adjustments above scheduled rate
@@ -1185,6 +1197,14 @@ extension LoopDataManager {
         self.predictedGlucose = predictedGlucose
         let predictedGlucoseIncludingPendingInsulin = try predictGlucose(using: settings.enabledEffects, includingPendingInsulin: true)
         self.predictedGlucoseIncludingPendingInsulin = predictedGlucoseIncludingPendingInsulin
+        
+        if( settings.dosingStrategyAutomationEnabled && settings.dosingStrategyThreshold?.rawValue != nil){
+            if( glucose.quantity > HKQuantity(unit : settings.glucoseUnit ?? .milligramsPerDeciliter, doubleValue: settings.dosingStrategyThreshold!.value)){
+                settings.dosingStrategy = .automaticBolus
+            } else {
+                settings.dosingStrategy = .tempBasalOnly
+            }
+        }
 
         guard
             let maxBasal = settings.maximumBasalRatePerHour,
@@ -1572,6 +1592,7 @@ extension LoopDataManager {
 
 extension Notification.Name {
     static let LoopDataUpdated = Notification.Name(rawValue: "com.loopkit.Loop.LoopDataUpdated")
+    static let LoopDataUpload = Notification.Name(rawValue: "com.loopkit.Loop.LoopDataUpload")
     static let LoopRunning = Notification.Name(rawValue: "com.loopkit.Loop.LoopRunning")
     static let LoopCompleted = Notification.Name(rawValue: "com.loopkit.Loop.LoopCompleted")
 }
