@@ -822,6 +822,24 @@
 		4FDDD23620DC51DF00D04B16 /* LoopDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoopDataManager.swift; sourceTree = "<group>"; };
 		4FF4D0FF1E18374700846527 /* WatchContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchContext.swift; sourceTree = "<group>"; };
 		4FFEDFBE20E5CF22000BFC58 /* ChartHUDController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartHUDController.swift; sourceTree = "<group>"; };
+		6E2142BA24DECBB6007BE8A2 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/Intents.strings; sourceTree = "<group>"; };
+		6E2142BB24DECBB6007BE8A2 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		6E2142BC24DECBB6007BE8A2 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/Main.strings; sourceTree = "<group>"; };
+		6E2142BD24DECBB6007BE8A2 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/MainInterface.strings; sourceTree = "<group>"; };
+		6E2142BE24DECBB6007BE8A2 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/Interface.strings; sourceTree = "<group>"; };
+		6E2142BF24DECBB6007BE8A2 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/Main.strings; sourceTree = "<group>"; };
+		6E2142C024DECBB7007BE8A2 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		6E2142C124DECBB7007BE8A2 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6E2142C224DECBB7007BE8A2 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6E2142C324DECBB7007BE8A2 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6E2142C424DECBB7007BE8A2 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6E2142C524DECBB7007BE8A2 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6E2142C624DECBB7007BE8A2 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6E2142C724DECBB8007BE8A2 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6E2142C824DECBB8007BE8A2 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6E2142C924DECBB8007BE8A2 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6E2142CA24DECBB8007BE8A2 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6E2142CB24DECBB8007BE8A2 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/Localizable.strings; sourceTree = "<group>"; };
 		7D199D93212A067600241026 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Main.strings; sourceTree = "<group>"; };
 		7D199D94212A067600241026 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/MainInterface.strings; sourceTree = "<group>"; };
 		7D199D95212A067600241026 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Interface.strings; sourceTree = "<group>"; };
@@ -2270,6 +2288,7 @@
 				sv,
 				fi,
 				ro,
+				uk,
 			);
 			mainGroup = 43776F831B8022E90074EA36;
 			productRefGroup = 43776F8D1B8022E90074EA36 /* Products */;
@@ -3031,6 +3050,7 @@
 				7D9BEF6D2335EC7D005DCFD6 /* sv */,
 				7D9BEF832335EC8B005DCFD6 /* fi */,
 				7D9BF13B23370E8B005DCFD6 /* ro */,
+				6E2142BC24DECBB6007BE8A2 /* uk */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -3039,6 +3059,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				43776F9B1B8022E90074EA36 /* Base */,
+				6E2142BB24DECBB6007BE8A2 /* uk */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -3064,6 +3085,7 @@
 				7D9BEF6B2335EC7D005DCFD6 /* sv */,
 				7D9BEF812335EC8B005DCFD6 /* fi */,
 				7D9BF13A23370E8B005DCFD6 /* ro */,
+				6E2142BA24DECBB6007BE8A2 /* uk */,
 			);
 			name = Intents.intentdefinition;
 			sourceTree = "<group>";
@@ -3089,6 +3111,7 @@
 				7D9BEF6F2335EC7D005DCFD6 /* sv */,
 				7D9BEF852335EC8B005DCFD6 /* fi */,
 				7D9BF13D23370E8B005DCFD6 /* ro */,
+				6E2142BE24DECBB6007BE8A2 /* uk */,
 			);
 			name = Interface.storyboard;
 			sourceTree = "<group>";
@@ -3114,6 +3137,7 @@
 				7D9BEF702335EC7D005DCFD6 /* sv */,
 				7D9BEF862335EC8B005DCFD6 /* fi */,
 				7D9BF13E23370E8C005DCFD6 /* ro */,
+				6E2142BF24DECBB6007BE8A2 /* uk */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -3122,6 +3146,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				43D9FFAE21EA9A0F00AF44BF /* Base */,
+				6E2142C024DECBB7007BE8A2 /* uk */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -3147,6 +3172,7 @@
 				7D9BEF6E2335EC7D005DCFD6 /* sv */,
 				7D9BEF842335EC8B005DCFD6 /* fi */,
 				7D9BF13C23370E8B005DCFD6 /* ro */,
+				6E2142BD24DECBB6007BE8A2 /* uk */,
 			);
 			name = MainInterface.storyboard;
 			sourceTree = "<group>";
@@ -3172,6 +3198,7 @@
 				7D9BEF762335EC7D005DCFD6 /* sv */,
 				7D9BEF8C2335EC8C005DCFD6 /* fi */,
 				7D9BF14223370E8C005DCFD6 /* ro */,
+				6E2142C424DECBB7007BE8A2 /* uk */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -3180,6 +3207,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				7D23667A21250C480028B67D /* Base */,
+				6E2142C624DECBB7007BE8A2 /* uk */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -3205,6 +3233,7 @@
 				7D9BEF772335EC7E005DCFD6 /* sv */,
 				7D9BEF8D2335EC8C005DCFD6 /* fi */,
 				7D9BF14323370E8C005DCFD6 /* ro */,
+				6E2142C524DECBB7007BE8A2 /* uk */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -3230,6 +3259,7 @@
 				7D9BEF99233600D8005DCFD6 /* sv */,
 				7D9BEF9A233600D9005DCFD6 /* vi */,
 				7D9BF14123370E8C005DCFD6 /* ro */,
+				6E2142C324DECBB7007BE8A2 /* uk */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -3254,6 +3284,7 @@
 				7D9BEF7F2335EC7E005DCFD6 /* sv */,
 				7D9BEF952335EC8D005DCFD6 /* fi */,
 				7D9BF14523370E8D005DCFD6 /* ro */,
+				6E2142C924DECBB8007BE8A2 /* uk */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -3279,6 +3310,7 @@
 				7D9BEF7A2335EC7E005DCFD6 /* sv */,
 				7D9BEF902335EC8C005DCFD6 /* fi */,
 				7D9BF14423370E8D005DCFD6 /* ro */,
+				6E2142C824DECBB8007BE8A2 /* uk */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -3304,6 +3336,7 @@
 				7D9BEF892335EC8C005DCFD6 /* fi */,
 				7D9BEF972335F667005DCFD6 /* en */,
 				7D9BF14023370E8C005DCFD6 /* ro */,
+				6E2142C224DECBB7007BE8A2 /* uk */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -3328,6 +3361,7 @@
 				7D9BEF802335EC7E005DCFD6 /* sv */,
 				7D9BEF962335EC8D005DCFD6 /* fi */,
 				7D9BF14623370E8D005DCFD6 /* ro */,
+				6E2142CB24DECBB8007BE8A2 /* uk */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -3352,6 +3386,7 @@
 				7D9BEF722335EC7D005DCFD6 /* sv */,
 				7D9BEF882335EC8C005DCFD6 /* fi */,
 				7D9BF13F23370E8C005DCFD6 /* ro */,
+				6E2142C124DECBB7007BE8A2 /* uk */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -3360,6 +3395,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				80F864E52433BF5D0026EC26 /* fi */,
+				6E2142CA24DECBB8007BE8A2 /* uk */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -3368,6 +3404,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				7D23667E21250CAC0028B67D /* Base */,
+				6E2142C724DECBB8007BE8A2 /* uk */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -3536,7 +3573,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "$(APPICON_NAME)";
 				CODE_SIGN_ENTITLEMENTS = Loop/Loop.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 5LMG69N4T6;
 				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = Loop/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -3555,7 +3592,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "$(APPICON_NAME)";
 				CODE_SIGN_ENTITLEMENTS = Loop/Loop.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 5LMG69N4T6;
 				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = Loop/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -3573,7 +3610,7 @@
 				CODE_SIGN_ENTITLEMENTS = "WatchApp Extension/WatchApp Extension.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 5LMG69N4T6;
 				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/Carthage/Build/watchOS";
 				INFOPLIST_FILE = "WatchApp Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
@@ -3596,7 +3633,7 @@
 				CODE_SIGN_ENTITLEMENTS = "WatchApp Extension/WatchApp Extension.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 5LMG69N4T6;
 				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/Carthage/Build/watchOS";
 				INFOPLIST_FILE = "WatchApp Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
@@ -3617,7 +3654,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "$(APPICON_NAME)";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 5LMG69N4T6;
 				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/Carthage/Build/watchOS";
 				IBSC_MODULE = WatchApp_Extension;
 				INFOPLIST_FILE = WatchApp/Info.plist;
@@ -3638,7 +3675,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "$(APPICON_NAME)";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 5LMG69N4T6;
 				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/Carthage/Build/watchOS";
 				IBSC_MODULE = WatchApp_Extension;
 				INFOPLIST_FILE = WatchApp/Info.plist;
@@ -3922,7 +3959,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 5LMG69N4T6;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "Loop Status Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
@@ -3944,7 +3981,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 5LMG69N4T6;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "Loop Status Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";

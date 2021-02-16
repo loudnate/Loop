@@ -1,0 +1,18 @@
+/* Bundle name */
+"CFBundleName" = "$(PRODUCT_NAME)";
+
+/* Privacy - Bluetooth Always Usage Description */
+"NSBluetoothAlwaysUsageDescription" = "Bluetooth використовується для зв'язку з інсуліновою помпою та пристроями безперервного контролю глюкози.";
+
+/* Privacy - Bluetooth Peripheral Usage Description */
+"NSBluetoothPeripheralUsageDescription" = "Bluetooth використовується для зв'язку з інсуліновою помпою та пристроями безперервного контролю глюкози.";
+
+/* Privacy - Face ID Usage Description */
+"NSFaceIDUsageDescription" = "Face ID використовується для автентифікації болюсу інсуліну.";
+
+/* Privacy - Health Share Usage Description */
+"NSHealthShareUsageDescription" = "Дані їжі з бази даних \"Здоров'я\" використовуються для визначення ефекту глюкози. Дані про глюкозу з бази даних \"Здоров'я\" використовуються для складання графіків та розрахунку імпульсу. Дані про сон у базі даних \"Здоров'я\" використовуються для покращення використання Apple Watch.";
+
+/* Privacy - Health Update Usage Description */
+"NSHealthUpdateUsageDescription" = "Дані про вуглеводну їжу, введені в програму та на годинник, зберігаються в базі даних \"Здоров'я\". Дані про глюкозу, отримані з CGM, надійно зберігаються у HealthKit.";
+

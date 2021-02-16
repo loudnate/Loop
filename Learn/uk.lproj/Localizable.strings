@@ -1,0 +1,32 @@
+/* Lesson subtitle */
+"Computes the percentage of glucose measurements within a specified range" = "Обчислює відсоток вимірювання глюкози в межах заданого діапазону";
+
+/* Title of the button to begin lesson execution */
+"Continue" = "Продовжити";
+
+/* Placeholder for upper range entry */
+"Maximum" = "Максимум";
+
+/* Placeholder for lower range entry */
+"Minimum" = "Мінінмум";
+
+/* Lesson title */
+"Modal Day" = "Режим дня";
+
+/* Lesson result text for no data */
+"No data available" = "Дані відсутні";
+
+/* Section title for glucose range */
+"Range" = "Діапазон";
+
+/* Title of config entry */
+"Start Date" = "Початкова дата";
+
+/* Lesson title */
+"Time in Range" = "Час в діапазоні";
+
+/* Lesson subtitle */
+"Visualizes the most frequent glucose values by time of day" = "Візуалізує найчастіші значення глюкози за часом доби";
+
+/* Unit string for a count of calendar weeks */
+"Weeks" = "Тижні";
