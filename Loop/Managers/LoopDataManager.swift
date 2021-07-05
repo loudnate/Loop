@@ -171,6 +171,19 @@ final class LoopDataManager: LoopSettingsAlerterDelegate {
 
                     self.notify(forChange: .bolus)
                 }
+            },
+            NotificationCenter.default.addObserver(
+                forName: .InsulinDeliveryStoreCacheDidChange,
+                object: doseStore.insulinDeliveryStore,
+                queue: OperationQueue.main
+            ) { (note) in
+                self.dataAccessQueue.async {
+                    self.logger.default("Received notification of insulin delivery store cache changing")
+
+                    self.insulinEffect = nil
+
+                    self.notify(forChange: .bolus)
+                }
             }
         ]
 
